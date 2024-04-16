@@ -30,5 +30,5 @@ export default defineConfig({
       copyright: "Copyright@ 2024 biongo",
     },
   },
-  base: "/blog",
+  base: "/blog-vitepress/",
 });
