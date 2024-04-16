@@ -3,25 +3,25 @@
 layout: home
 
 hero:
-  name: "My Awesome Project"
-  text: "A VitePress Site"
-  tagline: My great project tagline
+  name: "Awesome Document"
+  text: "With Vitepress"
+  tagline: Dream big and dare to fail && Just do it.
   image:
     src: /background.png
     alt: background
   actions:
     - theme: brand
-      text: Markdown Examples
+      text: Markdown Document
       link: /markdown-examples
     - theme: alt
-      text: API Examples
+      text: API Document
       link: /api-examples
 
 features:
-  - title: Feature A
+  - title: Java
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
+  - title: Python
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
+  - title: Golang
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
