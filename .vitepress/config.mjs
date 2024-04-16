@@ -2,9 +2,11 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "My Awesome Project",
+  head: [["link", { rel: "icon", href: "/blog/logo.png" }]],
+  title: "biongo",
   description: "A VitePress Site",
   themeConfig: {
+    logo: "/logo.png",
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "Home", link: "/" },
@@ -24,6 +26,9 @@ export default defineConfig({
     socialLinks: [
       { icon: "github", link: "https://github.com/vuejs/vitepress" },
     ],
+    footer: {
+      copyright: "Copyright@ 2024 biongo",
+    },
   },
-  base: "/blog-vitepress/",
+  base: "/blog",
 });
